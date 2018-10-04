@@ -1,8 +1,10 @@
 var myAnimal = 'cat'
 
-function myAnimal(dog) {
+function myAnimal() {
   return animal
 }
+
+myAnimal()
 
 function yourAnimal() {
   // How can we make sure that this function
