@@ -11,6 +11,13 @@ function yourAnimal() {
   return animal
 }
 
+describe('Fix the Scope', function() {
+  describe('myAnimal()', function() {
+    it('returns my animal', () => {
+      expect(window.myAnimal()).toEqual('dog')
+    })
+  })
+
 const two = 2
   
 function add2(n) {
