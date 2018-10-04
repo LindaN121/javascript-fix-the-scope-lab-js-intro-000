@@ -1,7 +1,7 @@
-var myAnimal = 'cat'
+var myAnimal = 'dog'
 
 function myAnimal() {
-  return animal
+  return myAnimal
 }
 
 function yourAnimal() {
@@ -11,12 +11,6 @@ function yourAnimal() {
   return animal
 }
 
-describe('Fix the Scope', function() {
-  describe('myAnimal()', function() {
-    it('returns my animal', () => {
-      expect(window.myAnimal()).toEqual('dog')
-    })
-  })
 
 const two = 2
   
